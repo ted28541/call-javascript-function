@@ -1,6 +1,5 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-console.log(false === '0');
-const uniqueArr = (arr) => [...new Set(arr)];
-const merge = [...new Set(a.concat(b))];
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const isTabInView = () => !document.hidden;
+const merge = [...new Set([...a, ...b])];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log("0 || 1 = "+(0 || 1));
+const value = ( 5 < 7 ) ? "True" : "False" ;
