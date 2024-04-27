@@ -1,3 +1,1 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const channel = getChannel(computedAppVersion);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
