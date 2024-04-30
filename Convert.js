@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const randomString = () => Math.random().toString(36).slice(2);
-[foo, bar] = [bar, foo];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log(1 +  +"2" + "2");
