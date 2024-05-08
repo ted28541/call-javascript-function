@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-console.log("1 || 2 = "+(1 || 2));
+var arr2 = arr1.reverse();
+const uniqueArr = (arr) => [...new Set(arr)];
+const lastElement = arr => arr[arr.length - 1];
