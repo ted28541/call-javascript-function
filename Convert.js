@@ -1,2 +1,1 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const removeDuplicates = (arr) => [...new Set(arr)];
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
