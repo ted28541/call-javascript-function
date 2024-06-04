@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-var arr1 = "john".split('');
+function myAPITS(someString: string, someNum: number) { ... };
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
