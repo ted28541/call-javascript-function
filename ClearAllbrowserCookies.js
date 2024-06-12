@@ -1,3 +1,2 @@
-const channelName = getChannelName(channel);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const merge = [...new Set(a.concat(b))];
+const appName = getAppName(channel);
