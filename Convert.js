@@ -1,2 +1,3 @@
-var arr1 = "john".split('');
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const executableName = getExecutableName(channel, appName);
+const reversedString = str => str.split('').reverse().join('');
+const goToTop = () => window.scrollTo(0, 0);
