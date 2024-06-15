@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const appName = getAppName(channel);
+const isEven = (num) => num % 2 === 0;
+const uniqueArr = (arr) => [...new Set(arr)];
