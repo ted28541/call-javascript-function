@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const randomBoolean = () => Math.random() >= 0.5;
