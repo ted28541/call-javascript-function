@@ -1,2 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const randomBoolean = () => Math.random() >= 0.5;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log( "A" - "B" + 2);
+const allResults = await Promise.all(items.map(async (item) => {}));
