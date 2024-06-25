@@ -1,2 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
