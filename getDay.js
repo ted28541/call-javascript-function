@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const merge = (a, b) => a.concat(b);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
