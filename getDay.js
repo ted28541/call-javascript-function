@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+function myAPITS(someString: string, someNum: number) { ... };
