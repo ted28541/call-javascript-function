@@ -1,3 +1,3 @@
-const merge = [...new Set(a.concat(b))];
-console.log(+"1" +  "1" + "2");
-console.log(false === '0');
+const repositoryRootPath = path.resolve(__dirname, '..');
+var arr3 = "jones".split('');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
