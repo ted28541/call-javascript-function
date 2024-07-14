@@ -1,1 +1,3 @@
-const merge = [...new Set([...a, ...b])];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const fullName = name || 'buddy';
