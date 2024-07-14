@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-console.log("0 && 1 = "+(0 && 1));
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isEmptyArray = arr => !arr.length;
