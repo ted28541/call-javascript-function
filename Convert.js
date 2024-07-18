@@ -1,3 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const fullName = name || 'buddy';
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const merge = [...new Set([...a, ...b])];
