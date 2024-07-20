@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const merge = [...new Set([...a, ...b])];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const reversedString = str => str.split('').reverse().join('');
