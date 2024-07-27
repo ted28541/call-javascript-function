@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(1 +  -"1" + "2");
+const merge = [...new Set(a.concat(b))];
+const isArray = (arr) => Array.isArray(arr);
