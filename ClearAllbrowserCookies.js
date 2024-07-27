@@ -1,2 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
 var arr2 = arr1.reverse();
