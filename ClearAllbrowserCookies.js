@@ -1,2 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-var arr2 = arr1.reverse();
+const maxNumber = arr => Math.max(...arr);
+console.log( "A" - "B" + "2");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
