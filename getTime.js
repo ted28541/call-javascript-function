@@ -1,2 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const removeDuplicates = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const uniqueArr = (arr) => [...new Set(arr)];
