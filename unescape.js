@@ -1,3 +1,1 @@
-console.log(1 +  -"1" + "2");
-const merge = [...new Set(a.concat(b))];
-const isArray = (arr) => Array.isArray(arr);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
