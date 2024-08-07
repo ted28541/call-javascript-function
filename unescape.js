@@ -1,1 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
